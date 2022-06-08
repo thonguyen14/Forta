@@ -125,7 +125,7 @@
     1. Run Forta
 
         sudo systemctl enable forta
-        sudo systemctl start forta
+        sudo systemctl start fortad.service
         
     2. Check service
 
