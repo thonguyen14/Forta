@@ -30,12 +30,8 @@
         systemctl restart docker
        
 - Install Forta
-  1. Install via YUM (Used for CentOS, Fedora, Red Hat Enterprise Linux etc.)
-    
-    $ sudo curl https://dist.forta.network/repositories/yum/Forta.repo -o /etc/yum.repos.d/Forta.repo -s
-    $ sudo yum install forta
 
-  2. Install via APT (Used for Ubuntu, Debian etc.) - i use this
+  *. Install via APT (Used for Ubuntu, Debian etc.) - i use this
     
     $ sudo curl https://dist.forta.network/pgp.public -o /usr/share/keyrings/forta-keyring.asc -s
     $ echo 'deb [signed-by=/usr/share/keyrings/forta-keyring.asc] https://dist.forta.network/repositories/apt stable main' | sudo tee -a /etc/apt/sources.list.d/forta.list
